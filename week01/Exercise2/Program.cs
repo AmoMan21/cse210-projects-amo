@@ -39,5 +39,15 @@ class Program
         }
         // Dispay the letter grading
         Console.WriteLine($"Your letter grade is: {letter}");
+
+            // Check if the user passed the course
+            if (gradePercentage >= 70)
+            {
+                Console.WriteLine("Congratulations! You passed the course!");
+            }
+            else
+            {
+                Console.WriteLine("Unfortunately, you didn't pass this time. Keep on trying.");
+            }
     }
 }
